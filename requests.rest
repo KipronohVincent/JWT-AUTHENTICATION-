@@ -1,0 +1,20 @@
+GET http://localhost:3100/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVmluY2VudCIsImlhdCI6MTY1MzI5OTMzOX0.HbQmGxT1gHdL3j4G2q45ewkDTwNhH8tDtmfsVifRcI0
+###
+
+POST http://localhost:4100/login
+Content-Type: application/json
+
+{
+    "username": "John"
+}
+
+###
+
+POST http://localhost:4100/token
+Content-Content-Type: application/json
+
+{
+    "token":
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9obiIsImlhdCI6MTY1MzMwMDczOH0.q7SDP_FhMdYIzeZ7plRVy1Ryd10EmfxYUCB_GskWwDs"
+}
